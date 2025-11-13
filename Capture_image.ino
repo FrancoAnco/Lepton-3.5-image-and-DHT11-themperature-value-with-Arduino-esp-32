@@ -23,7 +23,7 @@ SOFTWARE.
 
 */
 
-/*Original code is modified by FrancoAnco (https://github.com/FrancoAnco)*/
+/*Original code was modified by FrancoAnco (https://github.com/FrancoAnco)*/
 
 
 #include <SPI.h>
