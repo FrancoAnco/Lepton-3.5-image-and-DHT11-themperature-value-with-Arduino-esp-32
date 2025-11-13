@@ -14,3 +14,6 @@ P2
 ```
 
 you can have pgm image, pixels values matrix and themperature matrix by using the python code (I tried only on Raspberry Pi 4 B)
+
+
+Lepton Datasheet: https://cdn.sparkfun.com/assets/f/6/3/4/c/Lepton_Engineering_Datasheet_Rev200.pdf
