@@ -17,3 +17,19 @@ you can have pgm image, pixels values matrix and themperature matrix by using th
 
 
 Lepton Datasheet: https://cdn.sparkfun.com/assets/f/6/3/4/c/Lepton_Engineering_Datasheet_Rev200.pdf
+
+## Boards Manager
+
+esp32 by Espressif Systems
+
+(You can add on the left, under sketchbook in arduino program)
+
+## Arduino Library
+
+DHT-sensor-library by adafruit
+
+Lepton FLiR Thermal Camera Module Library by NachtRaveVL
+
+(You can add on the left, under Boards Manager in arduino program)
+
+
