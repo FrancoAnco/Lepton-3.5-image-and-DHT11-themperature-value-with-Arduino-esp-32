@@ -1,3 +1,5 @@
+# Original code by FrancoAnco (https://github.com/FrancoAnco)
+
 import serial
 import datetime
 import os
