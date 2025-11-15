@@ -17,8 +17,7 @@ def write_to_file(matrix, name):
             line = '\t'.join("{:.2f}".format(temperature) for temperature in row)
             file.write(line + '\n')
 
-#directory = "/home/pi/mnt/gdrive_def/lepton2"
-directory = "/home/pi/Desktop/PROGETTO_NO_DRIVER_CONDIVISO/lepton2"
+directory = "/home/pi/Desktop/lepton2" ############### Set your directory ################
 ser = serial.Serial('/dev/ttyUSB0', 115200)
 
 try:
