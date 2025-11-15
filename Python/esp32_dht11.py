@@ -21,7 +21,7 @@ def write_to_file(matrix, name):
 directory1 = "/home/pi/Desktop/sensori"   ############### Set your directory ################         
             
 os.makedirs(directory1, exist_ok=True)
-ser = serial.Serial('/dev/ttyUSB0', 115200)
+ser = serial.Serial('/dev/ttyUSB0', 115200) ############### check at what port number is your usb device (esp32) ################
 
 try:
     ora_corrente = datetime.datetime.now()
