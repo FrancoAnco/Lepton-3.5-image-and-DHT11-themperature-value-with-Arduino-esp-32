@@ -32,4 +32,8 @@ Lepton FLiR Thermal Camera Module Library by NachtRaveVL
 
 (You can add on the left, under Boards Manager in arduino program)
 
+## Notes
+
+Remember to set 115200 as baud rate in Arduino program
+
 
