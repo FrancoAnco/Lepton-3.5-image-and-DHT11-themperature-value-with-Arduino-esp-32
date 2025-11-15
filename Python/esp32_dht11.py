@@ -18,10 +18,7 @@ def write_to_file(matrix, name):
             line = '\t'.join("{:.2f}".format(temperature) for temperature in row)
             file.write(line+'\n')
             
-            
-
-#directory1 = "/home/pi/mnt/gdrive_def/sensori"
-directory1 = "/home/pi/Desktop/PROGETTO_NO_DRIVER_CONDIVISO/sensori"            
+directory1 = "/home/pi/Desktop/sensori"   ############### Set your directory ################         
             
 os.makedirs(directory1, exist_ok=True)
 ser = serial.Serial('/dev/ttyUSB0', 115200)
