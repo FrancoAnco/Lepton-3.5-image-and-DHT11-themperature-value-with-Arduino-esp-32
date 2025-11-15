@@ -18,7 +18,7 @@ def write_to_file(matrix, name):
             file.write(line + '\n')
 
 directory = "/home/pi/Desktop/lepton2" ############### Set your directory ################
-ser = serial.Serial('/dev/ttyUSB0', 115200)
+ser = serial.Serial('/dev/ttyUSB0', 115200) ############### check at what port number is your usb device (esp32) ################
 
 try:
     ora_corrente = datetime.datetime.now()
